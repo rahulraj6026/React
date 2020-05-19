@@ -16,6 +16,7 @@ import {
 import firebase from 'firebase/app'
 import {UserContext} from '../Context/UserCotext'
 import { toast } from 'react-toastify'
+import {Redirect} from 'react-router-dom'
 
 const Signin = () => {
     const context = useContext(UserContext)
@@ -47,6 +48,9 @@ const Signin = () => {
         handleSignIn()
     }
 
+	if(context.User?.uid){
+        return <Redirect to="/" />
+    }
     return (
 		<Container className='text-center'>
 			<Row>
