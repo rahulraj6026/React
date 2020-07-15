@@ -1,0 +1,28 @@
+[Installation Parameters]
+INSTALLDIR=/opt/opentext/webviewer
+[Landscape Directory Information]
+InstallationInfoVersion=1.0.0
+[Setup Modification]
+InstallationStatus=Ok
+ActionType=Install
+ProductName=OpenText Imaging Web Viewer 20.3
+SetupID=WEBV
+PatchName=
+PatchFamily=
+PatchCode=
+ProductCode={FCCEC730-CB83-4A4F-B51A-84436BC8ED2D}
+UpgradeCode={B5BFB8D1-1475-4ADE-8727-CBE56927863B}
+ProductVersion=20.3
+Manufacturer=OpenText Corporation
+InstallationDate=2020/05/20
+InstallationTime=14:57:28
+TimeZone=UTC+05:30
+InstallationDirectory=/opt/opentext/webviewer
+[System Information]
+ComputerName=ShashankCentOS
+FullQualifiedHostName=ShashankCentOS
+IPv4Addr=10.96.94.221 192.168.122.1
+IPv6Addr=fe80::250:56ff:fe01:63a6 ::1
+OperatingSystem=GNU/Linux
+VersionOS=4.18.0-80.el8.x86_64
+ArchitectureOS=x86_64
